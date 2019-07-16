@@ -8,8 +8,10 @@ $baseDir = dirname($vendorDir);
 return array(
     'Collator' => $vendorDir . '/symfony/intl/Resources/stubs/Collator.php',
     'IntlDateFormatter' => $vendorDir . '/symfony/intl/Resources/stubs/IntlDateFormatter.php',
+    'IntlException' => $vendorDir . '/symfony/polyfill-intl-messageformatter/Resources/stubs/IntlException.php',
     'JsonException' => $vendorDir . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
     'Locale' => $vendorDir . '/symfony/intl/Resources/stubs/Locale.php',
+    'MessageFormatter' => $vendorDir . '/symfony/polyfill-intl-messageformatter/Resources/stubs/MessageFormatter.php',
     'NumberFormatter' => $vendorDir . '/symfony/intl/Resources/stubs/NumberFormatter.php',
     'SqlFormatter' => $vendorDir . '/jdorn/sql-formatter/lib/SqlFormatter.php',
 );
