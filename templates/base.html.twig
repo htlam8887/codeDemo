@@ -14,7 +14,20 @@
     <body id="{% block body_id %}{% endblock %}">
         
         <div class="container body-container">
-        {% block body %}{% endblock %}
+        {% block body %}
+            <div class="row">
+                <div id="main" class="col-sm-9">
+
+                    {% block main %}{% endblock %}
+                </div>
+
+                <div id="sidebar" class="col-sm-3">
+                    {% block sidebar %}
+                        
+                    {% endblock %}
+                </div>
+            </div>
+        {% endblock %}
         </div>
         {% block javascripts %}{% endblock %}
     </body>
